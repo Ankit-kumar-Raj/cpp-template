@@ -19,6 +19,9 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #define meme memset(x,0,sizeof(x))
 #define ft first
 #define sn second
+#define bn0(z) __builtin_clz(z)
+#define nd0(z) __builtin_ctz(z)
+#define no1(z) __builtin_popcount(z)
 using namespace std;
 
 const int N = 200043;
@@ -105,9 +108,9 @@ long long Pwr(long long a,long long b,long long m){
     return res;
 }
 int main()
-{   long long a,b,c,d,e,f,g=500,h,i,j,k,x,y,z,sum=0,cnt=0,n,l,r,hi,lo,t,val=1;
-    
-    
-
+{   long long a,b,c,d,e,f,g=500,h,i,j,k,x,y,z,sum=0,cnt=0,n,l,r,hi,lo,testc,val=1;
+    cin>>testc;
+    testc=1;
+    while(testc--){}
     return 0;
 }
